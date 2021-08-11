@@ -5,7 +5,7 @@
 from dinosaurs import Dinosaurs
 
 
-class herd:
+class Herd:
     #  Constuctors
     def __init__(self, name):
         self.name = name

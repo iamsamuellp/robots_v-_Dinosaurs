@@ -14,14 +14,14 @@ class Weapons:
         self.weapon_name  = name
         self.attack_power = attack_pwr
         
-        #  This Method is to determine if thew weapon is melee or not
-    def type_weapon(self, type):
-        if(self.melee_weapon ==  True):
-           self.ranged_weapon =   False
-        else:
-           self.melee = True    
-    # def type_weapon(self):
-    #     if (self.melee == "melee"):
-    #         print("robot has a melee Weapon")
+    #     #  This Method is to determine if thew weapon is melee or not
+    # def type_weapon(self, type):
+    #     if(self.melee_weapon ==  True):
+    #        self.ranged_weapon =   False
     #     else:
-    #         print("robot has a ranged Weapon")
+    #        self.melee = True    
+    # # def type_weapon(self):
+    # #     if (self.melee == "melee"):
+    # #         print("robot has a melee Weapon")
+    # #     else:
+    # #         print("robot has a ranged Weapon")

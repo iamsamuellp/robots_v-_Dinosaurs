@@ -7,7 +7,7 @@ class Dinosaurs:
     def __init__(self):
         self.dino_name = ''
         self.dino_attack = ''
-        self.dino_health = int
+        self.dino_health = 0
 
     # Methods =============
     def dino_specs(self, breed, attack, health):

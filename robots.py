@@ -9,14 +9,13 @@ class Robots:
     # ======= Constructor========
     def __init__(self):
         self.robot_name = ''
-        self.robot_rank = ''
-        self.robot_health    = int
-        self.weapon     = Weapons
+        self.robot_health   = 0
+        self.weapon     = Weapons("Pulse Rilfe", 35)
 
 
 # ======= Methods =======
-    def robots_spec(self, name, health, rank):
+    def robots_spec(self, name, health,):
         self.robot_name    = name
         self.robot_health  = health
-        self.robot_rank    = rank   
+        
         

@@ -4,9 +4,9 @@
 
 class Weapons:
 #     ==== Consructor ====
-    def __init__(self,):
-        self.weapon_name = ''
-        self.attack_power= int
+    def __init__(self, name, atkpwr):
+        self.weapon_name = name
+        self.attack_power=atkpwr
         self.weapon_type = True
 #      ======Method=====
     def weapon_specs(self,name,attack_pwr):

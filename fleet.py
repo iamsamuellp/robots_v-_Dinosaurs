@@ -5,10 +5,9 @@
 from robots import Robots
 
 
-class fleet: 
-    def __init__(self,name, fleet,):
-        self.name  = name 
-        self.fleet = fleet
+class Fleet: 
+    def __init__(self,name,):
+        self.name  = name
         self.robots = []
 
     # ===== Methods =====
@@ -18,3 +17,8 @@ class fleet:
         third_robot   = Robots("infantrybotII")
         fourth_robot  = Robots("infantrybotIII")
         fifth_robot   = Robots("GladitorII")
+        self.robots.append(first_robot)
+        self.robots.append(second_robot)
+        self.robots.append(third_robot)
+        self.robots.append(fourth_robot)
+        self.robots.append(fifth_robot)

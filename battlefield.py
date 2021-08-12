@@ -15,23 +15,22 @@ class Battlefield:
         self.herd = Herd("Dino Horde 1")
         self.game=''     
         self.welcome =''
-        self.battle = ''
+        self.battle()
+    # ======= methods
     def run_game(self,game):
         self.game = game
         print("The game begins")
 
     def display_welcome(self,welcome):
         self.welcome =welcome
-        
+        print("Welcome to Robots versus Dinosaurs")
+
     def battle_round(self):
-        self.battle
 
-    def add_robots_to_fleet(self):
-        self.fleet.add_robots()
-
-
-    def add_dinos_to_herd(self):
-        self.herd.add_dinos()
-
-
-        
+     while len(self.herd.add_dinos) >0 and len(self.fleet.add_robots) >0:
+          choose= input("Choose your side: Dinos or Robots? ")
+     if(choose == "Dinos"):
+        Battlefield.dinos_move(self)
+     elif (choose == 'robots'):
+         Battlefield.robots_move(self)
+         

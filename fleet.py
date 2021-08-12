@@ -12,11 +12,11 @@ class Fleet:
 
     # ===== Methods =====
     def add_robots(self):
-        first_robot   = Robots("infantrybotI")
-        second_robot  = Robots("GladitorI")
-        third_robot   = Robots("infantrybotII")
-        fourth_robot  = Robots("infantrybotIII")
-        fifth_robot   = Robots("GladitorII")
+        first_robot   = Robots("infantrybotI", 60, 40 )
+        second_robot  = Robots("GladitorI",   100, 60)
+        third_robot   = Robots("infantrybotII", 60, 40)
+        fourth_robot  = Robots("infantrybotIII", 60, 40 )
+        fifth_robot   = Robots("GladitorII", 100, 60) 
         self.robots.append(first_robot)
         self.robots.append(second_robot)
         self.robots.append(third_robot)
